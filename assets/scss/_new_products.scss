@@ -1,0 +1,163 @@
+.new-prod-area .section-title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53px;
+    color: #000;
+    letter-spacing: 3px;
+
+    @media #{$lg}{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    @media #{$md}{
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 2px;
+    }
+    @media #{$xs}{
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+}
+
+.new-prod-area .nav-pills .nav-link {
+    background: none !important;
+    border: 0;
+    border-radius: 0;
+    color: #777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.new-prod-area .nav-pills .nav-link.active {
+    color: #000;
+}
+
+.new-prod-area ul.product-list {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.new-product-inner {
+    background: #F2F2F2;
+    position: relative;
+    overflow: hidden;
+}
+
+.new-product-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+
+.new-product-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.new-prod-hover-dtl {
+    background: rgba(30, 40, 50, 0.91);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    transform: translateY(10px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  
+  .new-prod-thumb:hover .new-prod-hover-dtl {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hover-dtl-left i, .hover-dtl-right i {
+    color: #fff;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.hover-dtl-right {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.hover-dtl-right a {
+    color: #fff;
+    font-weight: 400;
+}
+
+.new-prod-content h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 20px 0 10px;
+}
+
+.product-price span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #000;
+}
+
+.sale .product-price span {
+    color: #FF6F61;
+    margin-left: 10px;
+}
+
+.new-prod-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-meta p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.new-product-wrapper.sale span.flags, .new-product-wrapper.hot span.flags {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    width: 50px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-product-wrapper.hot span.flags {
+    background: $theme_color;
+}
+
+.nav.nav-pills.product-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+

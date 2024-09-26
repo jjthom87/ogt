@@ -1,0 +1,71 @@
+
+
+.electronics_gadget_product_banner {
+    background-image: url(../img/electronics_gadget_prod/left-side.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 293px;
+    height: 255px;
+    @media #{$md}{
+        width: 100%;
+    }    
+    @media #{$xs}{
+        width: 100%;
+    }    
+}
+
+.electronics_gadget_product {
+    margin-top: 30px;
+}
+
+.single_product_item {
+    padding:20px 20px 50px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.product-thumb {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+}
+
+.single_product_item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.single_product_item p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8B96A5;
+    margin-top: 5px;
+}
+
+.electronics_gadget_product_banner h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #1C1C1C;
+}
+
+.electronics_gadget_product_banner {
+    padding: 20px;
+}
+
+.electronics_gadget_product_banner .white-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}

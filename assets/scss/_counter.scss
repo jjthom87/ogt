@@ -1,0 +1,39 @@
+/* counter Section 
+============== */
+
+.counter-area {
+	background-image: url(../img/counter.png);
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	position: relative;
+	z-index: 1;
+    border-top: 3px solid #FFB293;
+}
+
+.single-counter-box {
+	text-align: center;
+}
+
+.single-counter-box .counter-number span {
+	font-size: 50px;
+	color: #333;
+	margin: 30px 0 10px;
+}
+
+.single-counter-box p.counter-number {
+	font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+	color: #333;
+}
+
+.single-counter-box h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+	color: #333;
+}

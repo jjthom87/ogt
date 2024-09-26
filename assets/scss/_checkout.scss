@@ -1,0 +1,31 @@
+.checkout-wrap {
+    background: #F8F8F8;
+    padding: 30px;
+}
+
+.checkout-wrap input {
+    background: #fff;
+    border-radius: 0;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.checkout-wrap select {
+    background: #fff;
+    border: none;
+}
+
+.checkout-wrap h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.checkout-wrap span.checkmark {
+    background: #fff !important;
+}
+
+.checkout-wrap .checkmark:after{
+    border-color: #333;
+}

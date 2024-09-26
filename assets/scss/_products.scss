@@ -1,0 +1,162 @@
+.sidebar-wrapper{
+    background: #F8F8F8;
+}
+
+.single-sidebar h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1160px) {
+    .single-sidebar h3 {
+        margin: 15px 0;
+    }
+}
+
+.farny-sidebar-block-item a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.sidebar-box {
+    padding: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1160px) {
+    .filter-price-text {
+        padding: 20px;
+    }
+}
+
+.sidebar-box ul li {
+    display: block;
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1160px) {
+    .sidebar-box ul li {
+        display: block;
+        position: relative;
+        padding: 5px 0;
+    }
+}
+
+
+.showing-result-shorting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.showing-result-shorting .showing p {
+    margin: 0;
+}
+
+.shorting li {
+    display: block;
+}
+
+.single-sidebar h6 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-area .pagination {
+    margin-top: 50px;
+    justify-content: end;
+}
+
+.page-link{
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+.page-item:first-child .page-link{
+    display: none;
+}
+
+.page-item:last-child .page-link{
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+
+
+.active > .page-link, .page-link.active {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C5853A;
+    border-color: #C5853A;
+}
+
+.farny-sidebar-block-item {
+    display: inline-flex;
+}
+
+.farny-sidebar-block-item input {
+    margin-right: 15px;
+}
+
+.color-picker-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-price {
+    padding: 0 0px 0px 15px;
+}
+
+.filter-price-text {
+    margin-top: 15px;
+}
+
+// input[type=checkbox]:checked{
+//     background-color: #FA9E57;
+// }
+
+
+
+input[type="checkbox"] {
+    width: inherit;
+}
+
+.dot-square {
+    background: #F8F8F8;
+    padding: 15px;
+}
+
+.list-icon {
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #eee;
+    padding: 12px;
+}
+
+.midle {
+    background: #F8F8F8;
+    padding: 11px;
+    width: 445px;
+}
+
+.shorting select {
+    width: 275px;
+}

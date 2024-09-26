@@ -1,0 +1,47 @@
+.content-left-wrap h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-right: 70px;
+
+    @media #{$lg}{
+        font-size: 35px;
+        line-height: 45px;
+        padding-right: 45px;
+    }
+
+    @media #{$md}{
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 45px;
+    }
+
+    @media #{$xs}{
+        font-size: 30px;
+        line-height: 45px;
+        padding-right: 45px;
+    }
+}
+
+.content-left-wrap p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 40px 0;
+
+    @media #{$md}{
+        margin: 20px 0;
+    }
+
+    @media #{$xs}{
+        margin: 20px 0;
+    }
+}
+
+.autumn-deal-img-wrap{
+    margin-top: 0;
+    @media #{$xs}{
+     margin-top: 50px;
+    }
+
+
+}

@@ -1,0 +1,77 @@
+.quotation-form-wrapper{
+    background-image: url(../img/quotation_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.quotation-form-wrapper {
+    padding: 50px;
+    @media #{$xs}{
+        padding: 25px;
+    }
+}
+
+.form-content h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    @media #{$xs}{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+.form-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 30px;
+    padding-right: 80px;
+    @media #{$xs}{
+        font-size: 15px;
+        line-height: 24px;
+        padding-right: 10px;
+    }
+}
+
+.quotation-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 6px;
+    @media #{$xs}{
+        margin-top: 40px;
+        
+    }
+}
+
+.quotation-form h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.quotation-form input, .quotation-form textarea {
+    margin-bottom: 20px;
+}
+
+.quotation-form textarea{
+    height: 75px;
+}
+
+.quotation-form .nice-select {
+    width: 100%;
+    height: 48px;
+}
+
+.quotation-form .nice-select .option {
+    width: 100%;
+}
+
+.quotation-form .main-btn {
+    border-radius: 6px;
+}

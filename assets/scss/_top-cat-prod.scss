@@ -1,0 +1,72 @@
+.top-cat-bg {
+    position: relative;
+    z-index: 1;
+}
+
+
+.top-cat-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: .7;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0 0 7px 7px;
+}
+
+.top-cat-title h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 8px 0;
+}
+
+
+.top-cat-title p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.top-category-carousel .owl-nav button.owl-prev, 
+.top-category-carousel .owl-nav button.owl-next {
+    background: #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+    &:hover{
+        background: $theme_color-3;
+        color: #fff;
+    }
+}
+
+.top-category-carousel .owl-nav i {
+    font-size: 20px;
+}
+
+.top-category-carousel .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    display: flex;
+}
+
+.top-cat-prod {
+    position: relative;
+    z-index: 1;
+}
+
+.top-cat-item{
+    margin-top: 30px;
+}

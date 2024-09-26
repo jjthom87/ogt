@@ -1,0 +1,74 @@
+
+
+.extra-service-section h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.extra-service-bg {
+    position: relative;
+    z-index: 1;
+}
+
+.extra-service-bg{
+    background-image: url(../img/extra_service/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    @media #{$xs}{
+        height: 200px;
+    }
+}
+
+.service-two{
+    background-image: url(../img/extra_service/2.png);
+}
+.service-three{
+    background-image: url(../img/extra_service/3.png);
+}
+.service-four{
+    background-image: url(../img/extra_service/4.png);
+}
+
+.extra-service-icon {
+    width: 55px;
+    height: 55px;
+    background: #D1E7FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+}
+
+
+.extra-service-content {
+    background: #fff;
+    padding: 25px;
+    width: 100%;
+}
+
+.extra-service-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.single-extra-service {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    // width: 280px;
+    position: relative;
+    z-index: 1;
+
+    @media #{$lg, $md, $xs}{
+        margin-bottom: 30px;
+    }
+}

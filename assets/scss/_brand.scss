@@ -1,0 +1,41 @@
+.brand-section{
+    background-image: url(../img/brand/brand-banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 776px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.brand-desc p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 60px 0;
+    @media #{$lg}{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    @media #{$md}{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    @media #{$xs}{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.brand-inner-wrap {
+    margin-top: 260px;
+}
+
+.brand-water-mark-logo {
+    position: absolute;
+    right: -285px;
+    top: 52px;
+}

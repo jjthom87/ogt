@@ -1,0 +1,59 @@
+.client-area-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media #{$xs} {    
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-evenly;
+	}
+}
+
+.single-client-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.single-client-wrap img{
+    width: inherit !important;
+    @media #{$xs} {
+        margin-bottom: 40px;
+        width: 75%;
+      }
+}
+
+// Client # 03
+
+.client-area-wrap {
+    padding: 25px 0;
+}
+
+.client-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-client{
+    width: 150px;
+}
+
+// clinet # 04
+
+.client-section {
+    border-top: 1px solid #eee;
+}
+
+.client-headline h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.client-desc p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}

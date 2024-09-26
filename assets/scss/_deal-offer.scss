@@ -1,0 +1,108 @@
+.deal-offer-countdown .simply-countdown-one .simply-section {
+    margin-right: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #606060;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 6px;
+    @media #{$lg}{
+        width: 40px;
+        height: 40px;
+        margin-right: 7px;
+    }
+}
+
+.deal-offer-countdown .simply-countdown-one .simply-section .simply-amount {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+    display: block;
+}
+
+.deal-offer-countdown .simply-countdown-one .simply-section .simply-word {
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.deal-offer-countdown .simply-countdown-one {
+    margin-top: 20px;
+}
+
+.deal-offer-countdown h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.deal-offer-product-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+    @media #{$md}{
+        border-top: 1px solid #eee;
+    }
+    @media #{$xs}{
+        border-top: 1px solid #eee;
+        flex-direction: column;
+    }
+}
+
+.deal-offer-product-item {
+    text-align: center;
+    border-left: 1px solid #eee;
+    width: 180px;
+    @media #{$xs}{
+        border-left: none;
+    }
+}
+
+.deal-offer-product-item img {
+    padding: 20px 0 0;
+}
+
+.deal-offer-product-item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0 0;
+}
+
+.deal-offer-product-item p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #EB001B;
+    line-height: 17px;
+    background: #FFE3E3;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 13px;
+    margin: 20px 0;
+}
+
+.deal-offer-inner {
+    border-radius: 6px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+
+.deal-offer-countdown {
+    padding: 20px 0 0 20px;
+    @media #{$xs}{
+        text-align: center;
+    }
+}
+

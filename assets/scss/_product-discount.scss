@@ -1,0 +1,75 @@
+.single-prod-dis-wrap{
+    // background-image: url(../img/prod-disc-img/01.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 30px;
+    @media #{$md}{
+        margin-bottom: 30px;
+    }
+
+    @media #{$xs}{
+        margin-bottom: 30px;
+    }
+    
+}
+
+.single-prod-dis-wrap.one{
+    background-image: url(../img/prod-disc-img/1.jpg);
+}
+.single-prod-dis-wrap.two{
+    background-image: url(../img/prod-disc-img/2.jpg);
+}
+.single-prod-dis-wrap.three{
+    background-image: url(../img/prod-disc-img/03.png);
+}
+.single-prod-dis-wrap.four{
+    background-image: url(../img/prod-disc-img/04.png);
+}
+.single-prod-dis-wrap.wide{
+    background-image: url(../img/prod-disc-img/05.png);
+    height: 430px;
+}
+
+.single-prod-dis-wrap .pro-dis-des {
+    padding: 30px;
+}
+
+.single-prod-dis-wrap .pro-dis-des h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+    @media #{$lg}{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+.single-prod-dis-wrap.wide .pro-dis-des h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+.pro-dis-des p {    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.single-prod-dis-wrap.wide .pro-dis-des p {    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.pro-dis-des .main-btn {
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+    border-color: #333;
+    color: #333;
+}

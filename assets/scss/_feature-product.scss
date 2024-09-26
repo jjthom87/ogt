@@ -1,0 +1,141 @@
+.feat-prod-bedge span {
+    background: #01AD5A;
+    color: #fff;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.single-feature-product {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.feat-prod-bedge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.feature-prod-content h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #272343;
+    margin: 10px 0;
+}
+
+p.feat-prod-price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #272343;
+}
+
+p.feat-prod-price span {
+    color: #9A9CAA;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: line-through;
+}
+
+.feat-prod-cart {
+    background: #eee;
+    display: inline-flex;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+
+.feat-prod-cart i {
+    font-size: 22px;
+}
+
+.feat-prod-wishlist {
+    background: #eee;
+    display: inline-flex;
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.feat-prod-bedge span.sales {
+    background: #F5813F;
+}
+
+.feat-prod-wishlist i {
+    font-size: 22px;
+}
+
+.feature-prod-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.single-feature-product:hover .feat-prod-wishlist{
+    visibility: visible;
+    opacity: 1;
+}
+
+.single-feature-product:hover .feature-prod-content h6{
+    color: $theme_color-3;
+}
+
+.single-feature-product:hover .feat-prod-cart{
+    background: $theme_color-3;
+    color: #fff;
+}
+
+.feature-product-carousel .owl-nav button.owl-prev, 
+.feature-product-carousel .owl-nav button.owl-next {
+    background: #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+    &:hover{
+        background: $theme_color-3;
+        color: #fff;
+    }
+}
+
+.feature-product-carousel .owl-nav i {
+    font-size: 20px;
+}
+
+.feature-product-carousel .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    display: flex;
+}
+
+.feature-product {
+    position: relative;
+    z-index: 1;
+}

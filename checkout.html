@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <title>Farny | Multipurpose E-commerce Template</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/jpg" >
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- Line Awesome CSS -->
+    <link href="assets/css/line-awesome.min.css" rel="stylesheet" >
+    <!-- Animate CSS-->
+    <link href="assets/css/animate.css" rel="stylesheet" >
+    <!-- Bar Filler CSS -->
+    <link href="assets/css/barfiller.css" rel="stylesheet" >
+    <!-- Magnific Popup Video -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" >
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="assets/icon-font/flaticon.css">
+    <!-- Owl Carousel CSS -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" >
+    <!-- Nice Select  -->
+    <link href="assets/css/nice-select.css" rel="stylesheet" >
+    <!-- Slick Slider -->
+    <link href="assets/css/slick.css" rel="stylesheet" >
+    <!-- NoUi Slider  -->
+    <link href="assets/css/nouislider.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" >
+    <!-- Responsive CSS -->
+    <link href="assets/css/responsive.css" rel="stylesheet" >
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Pre Loader -->
+
+ 	<div id="farny_preloader">
+		<div id="farny_circle_loader"></div>
+		<div class="farny_loader_logo"><img src="assets/img/preload.png" alt="Preload"></div>
+	</div>
+
+    <!-- Header Top Area  -->
+
+    <div class="header-top-area gray-bg">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <div class="header-top-left">
+                        <p>Sale up to 50% on this sunday. Read More</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                    <div class="header-top-right-inner d-flex justify-content-end">
+                        <a class="farny-help" href="faq.html">Help</a>
+                        <!-- Language Start -->
+                        <div class="header-top-lan-curr header-top-lan dropdown">
+                            <button class="dropdown-toggle" >English
+                                <i class="las la-angle-down"></i>
+                                <!-- <i class="fi-rr-angle-small-down" aria-hidden="true"></i> -->
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Italiano</a></li>
+                            </ul>
+                        </div>
+                        <!-- Language End -->
+                        <!-- Currency Start -->
+                        <div class="header-top-lan-curr header-top-curr dropdown">
+                            <button class="dropdown-toggle" >Dollar
+                                <i class="las la-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a class="dropdown-item" href="#">USD $</a></li>
+                                <li><a class="dropdown-item" href="#">EUR €</a></li>
+                            </ul>
+                        </div>
+                        <!-- Currency End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area -->
+
+    <div class="header-area header-two">
+        <div class="navigation">
+            <div class="container">
+                <div class="row my-4 align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+                        <div class="header-left-wrap">
+                            <div class="logo">
+                                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="" ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-5 col-12">                        
+                        <div class="nav-search-bar">
+                            <form class="search-form">
+                                <input type="text" placeholder="Search Product">                            
+                            </form>
+                            <div class="search-icon">
+                                <i class="las la-search"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-12">
+                        <div class="header-right-area">
+                            <!-- Header User Start -->
+                            <div class="farny-acc-drop">
+                                <a href="#" class="">
+                                    <div class="header-icon">
+                                        <i class="las la-user"></i>
+                                    </div>
+                                </a>
+                                <ul class="farny-dropdown-menu">
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#signup_Modal">Sign Up</a></li>                                    
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#signin_Modal">Sign In</a></li>
+                                </ul>
+                            </div>
+                            <!-- Header User End -->
+                            <!-- Header wishlist Start -->
+                            <a href="wishlist.html" class="">
+                                <div class="header-icon">
+                                    <i class="lar la-heart"></i>
+                                    <div class="icon-notify">4</div>
+                                </div>
+                            </a>
+                            <!-- Header wishlist End -->
+                            <!-- Header Cart Start -->
+                            <a href="#" class="cart_btn">
+                                <div class="header-icon">
+                                    <i class="las la-shopping-bag"></i>
+                                    <div class="icon-notify">3</div>
+                                </div>
+                            </a>
+                            <!-- Header Cart End -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row border-top">
+                    <div class="col-xl-6 col-lg-5 col-12">
+                        <div class="dropdown category-dropdown">
+                            <i class="las la-list-ul"></i>
+                            <a class="cat-title" href="#">
+                                Browse Categories
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <nav class="side-nav">
+                                    <ul class="menu-vertical">                    
+                                        <li><a href="#">Beds</a></li>
+                                        <li><a href="#">Lighting</a></li>
+                                        <li><a href="#">Sofas &amp; Sleeper sofas</a></li>
+                                        <li><a href="#">Storage</a></li>
+                                        <li><a href="#">Armchairs &amp; Chaises</a></li>
+                                        <li><a href="#">Decoration </a></li>
+                                        <li><a href="#">Kitchen Cabinets</a></li>
+                                        <li><a href="#">Coffee &amp; Tables</a></li>
+                                        <li><a href="#">Outdoor Furniture </a></li>
+                                    </ul><!-- End .menu-vertical -->
+                                </nav><!-- End .side-nav -->
+                            </div><!-- End .dropdown-menu -->
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                    <span class="navbar-toggler-icon"></span>
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Home<i class="las la-angle-down"></i>
+                                                <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Home-1</a></li>
+                                                <li><a href="index-2.html">Home-2</a></li>
+                                                <li><a href="index-3.html">Home-3</a></li>
+                                                <li><a href="index-4.html">Home-4</a></li>                                                
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Shop<i class="las la-angle-down"></i>
+                                                <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="products_two_column.html">Shop Grid 2 Columns</a></li>
+                                                <li><a href="products_default.html">Shop Grid 3 Columns</a></li>
+                                                <li><a href="products_four_column.html">Shop Grid 4 Columns</a></li>
+                                                <li><a href="products_no_sidebar.html">Shop Grid No Sidebar</a></li>                                                
+                                                
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Products<i class="las la-angle-down"></i>
+                                                <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">                                                                                                
+                                                <li><a href="product-details.html">Product Details </a></li>                                                
+                                                <li><a href="cart.html">Cart</a></li>                                                
+                                                <li><a href="checkout.html">Checkout</a></li>                                                
+                                                <li><a href="wishlist.html">Wishlist</a></li>                                                
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Pages<i class="las la-angle-down"></i>
+                                                <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="contact.html">Contact</a></li>                                                
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Blog<i class="las la-angle-down"></i>
+                                                <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html">Blog List</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>                                        
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<!-- Breadcrumb Area  -->
+
+<div class="breadcrumb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12 text-center">
+				<div class="breadcroumb-title">
+					<h3>Checkout</h3>
+					<h6><a href="index.html">Home</a> / Checkout</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Checkout Page  -->
+
+<div class="checkout-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="checkout-wrap">                        
+                    <h5>Billing Details</h5>
+                    <form action="index.html">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="tel" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <input type="email" placeholder="E-mail">
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="Phone No.">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="Address">
+                            </div>
+                            <div class="col-xl-6">
+                                <select class="form-dropdown">
+                                    <option value=""> Town/City </option>
+                                    <option value="italy"> Rome </option>
+                                    <option value="england"> Manchester </option>
+                                    <option value="france"> Paris </option>
+                                    <option value="germany"> Berlin </option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <select class="form-dropdown">
+                                    <option value=""> State/Country </option>
+                                    <option value="italy"> Italy </option>
+                                    <option value="england"> England </option>
+                                    <option value="france"> France </option>
+                                    <option value="germany"> Germany </option>
+                                </select>
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="Postal Code">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-12">
+                                
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <label class="checkbox-wrap mt-30">Save your details for future order purpose
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="shop-cart-wrap">
+                    <div class="calculation-area">
+                        <h6>Price Summary</h6>
+                        <p>Price<span>$150.00</span></p>
+                        <p>Delivery Charge<span>$50.00</span></p>                        
+                        <p>Sub Total<span>$200.00</span></p>
+                        <hr>
+                        <p class="total_amount"><b>Total Cost</b><span>$200.00</span></p>
+                    </div>
+                    <div class="proceed-to-checkout text-center mt-0">
+                        <div class="payment-method-img">
+                            <img src="assets/img/checkout_payment.png" alt="">
+                        </div>
+                        <a class="main-btn primary mt-20 mb-20" href="checkout.html">Place Order Now</a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Related Products  -->
+
+<div class="related-products text-center pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">                
+                <h4 class="mb-5">You May Also Like</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="top-product-wrapper">
+                    <div class="top-product-inner d-flex justify-content-center align-items-center">
+                        <div class="top-prod-thumb">
+                            <img src="assets/img/top-products/1.png" alt="">
+                            <span class="flags">
+                                <span class="new">New</span>
+                            </span>
+                            <ul class="top-prod-thumb-icons">
+                                <li class="icon-list">
+                                <a class="icon add-to-cart-btn">
+                                    <i class="las la-shopping-cart"></i>
+                                </a>
+                                </li>
+                    
+                                <li class="icon-list add-to-wishlist-btn">
+                                    <a class="icon add-to-wishlist-btn">
+                                        <i class="lar la-heart"></i>
+                                    </a>
+                                </li>                                        
+                                                                    
+                                <li class="icon-list">
+                                    <a class="icon cart-loading product-quick-view-ajax">
+                                        <i class="lar la-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top-prod-content">
+                        <h5 class="top-product-title">New Trendy Armchair</h5>
+                        <div class="product-rating">
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <p>$35.20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="top-product-wrapper">
+                    <div class="top-product-inner d-flex justify-content-center align-items-center">
+                        <div class="top-prod-thumb">
+                            <img src="assets/img/top-products/2.png" alt="">     
+                            <ul class="top-prod-thumb-icons">
+                                <li class="icon-list">
+                                <a class="icon add-to-cart-btn">
+                                    <i class="las la-shopping-cart"></i>
+                                </a>
+                                </li>
+                    
+                                <li class="icon-list add-to-wishlist-btn">
+                                    <a class="icon add-to-wishlist-btn">
+                                        <i class="lar la-heart"></i>
+                                    </a>
+                                </li>                                        
+                                                                    
+                                <li class="icon-list">
+                                    <a class="icon cart-loading product-quick-view-ajax">
+                                        <i class="lar la-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>                                           
+                        </div>
+                    </div>
+                    <div class="top-prod-content">
+                        <h5 class="top-product-title">New Trendy Armchair</h5>
+                        <div class="product-rating">
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <p>$35.20 <span>$70</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="top-product-wrapper">
+                    <div class="top-product-inner d-flex justify-content-center align-items-center">
+                        <div class="top-prod-thumb">
+                            <img src="assets/img/top-products/3.png" alt="">
+                            <span class="flags">
+                                <span class="new">-25%</span>
+                            </span>
+                            <ul class="top-prod-thumb-icons">
+                                <li class="icon-list">
+                                <a class="icon add-to-cart-btn">
+                                    <i class="las la-shopping-cart"></i>
+                                </a>
+                                </li>
+                    
+                                <li class="icon-list add-to-wishlist-btn">
+                                    <a class="icon add-to-wishlist-btn">
+                                        <i class="lar la-heart"></i>
+                                    </a>
+                                </li>                                        
+                                                                    
+                                <li class="icon-list">
+                                    <a class="icon cart-loading product-quick-view-ajax">
+                                        <i class="lar la-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top-prod-content">
+                        <h5 class="top-product-title">New Trendy Armchair</h5>
+                        <div class="product-rating">
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <p>$35.20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="top-product-wrapper">
+                    <div class="top-product-inner d-flex justify-content-center align-items-center">
+                        <div class="top-prod-thumb">
+                            <img src="assets/img/top-products/4.png" alt="">
+                            <ul class="top-prod-thumb-icons">
+                                <li class="icon-list">
+                                <a class="icon add-to-cart-btn">
+                                    <i class="las la-shopping-cart"></i>
+                                </a>
+                                </li>
+                    
+                                <li class="icon-list add-to-wishlist-btn">
+                                    <a class="icon add-to-wishlist-btn">
+                                        <i class="lar la-heart"></i>
+                                    </a>
+                                </li>                                        
+                                                                    
+                                <li class="icon-list">
+                                    <a class="icon cart-loading product-quick-view-ajax">
+                                        <i class="lar la-eye"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top-prod-content">
+                        <h5 class="top-product-title">New Trendy Armchair</h5>
+                        <div class="product-rating">
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                            <i class="las la-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <p>$35.20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Area  -->
+
+<div class="footer-area dark-bg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-12">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="">
+                    </div>
+                    <div class="footer-content">
+                        <p>You might remember the Dell computer commercials in which a youth reports this exciting news to his friends.</p>
+                    </div>
+                    <div class="social-area">
+                        <a href="#"><i class="lab la-youtube"></i></a>
+                        <a href="#"><i class="lab la-facebook-f"></i></a>
+                        <a href="#"><i class="lab la-twitter"></i></a>
+                        <a href="#"><i class="lab la-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12">                    
+                <div class="row">
+                    <div class="col-6">
+                        <div class="footer-widget">
+                            <h5>About Us</h5>
+                            <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>                                    
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Carreer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="footer-widget">
+                            <h5>Shop By</h5>
+                            <ul>
+                                <li><a href="#">New Arrival</a></li>
+                                <li><a href="#">Best Seller</a></li>                                    
+                                <li><a href="#">Feature Product</a></li>
+                                <li><a href="#">Sale Off</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                <div class="footer-widget">
+                    <h5>Newsletter</h5>
+                    <div class="contact-form-wrap">
+                        <div class="contact-form">
+                            <form>
+                                <input type="text" placeholder="Enter Your E-mail">
+                            </form>
+                        </div>
+                        <div class="subscribted-btn">
+                            <input type="button" value="Subscribe">
+                        </div>
+                    </div>
+                    <div class="payment-card-wrapper">
+                        <img src="assets/img/payment/Visa-light.png" alt="">
+                        <img src="assets/img/payment/MasterCard-light.png" alt="">
+                        <img src="assets/img/payment/Maestro-light.png" alt="">
+                        <img src="assets/img/payment/Cirrus-light.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer Bottom Area  -->
+
+    <div class="footer-bottom dark-bg">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 col-12">
+                        <div class="copyright-area">
+                            <p class="copyright-line">© 2024 Farny. All rights reserved.</p>
+                        </div>
+                    </div>  
+                    <div class="col-md-7 col-12">
+                        <div class="footer-bottomr-right">
+                            <a href="#">Terms and Conditions</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Sign Up Modal -->
+<div class="modal fade" id="signup_Modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+        <div class="modal-header">          
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+          
+        <div class="modal-body">          
+        <div class="main-wrapper">        
+            <div class="form-inner sign-in">
+                <form>
+                    <div class="form-header text-center">
+                        <h3>Sign Up</h3>                        
+                        <p>Registering makes checkout faster for you, and saves your order information. If you choose not to have your information stored, you can still checkout as a guest.</p>
+                    </div>                
+                    <div class="form-group">                    
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">                    
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">                    
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                        <p>Passwords must be a minimum of 6 characters long. 
+                            Special characters are allowed.</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Confirm Password">                        
+                    </div>
+
+                    <div class="form-meta mt-30 mb-20">
+                        <label class="checkbox-wrap mb-10">I confirm that I am 19+ years of age.
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox-wrap">I have read and acknowledged the <a class="form_link" href="">Privacy Policy</a>.
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        
+                    </div>  
+                                    
+                    <div class="form-group">
+                        <a href="index.html" class="main-btn">Sign Up</a>
+                    </div>                          
+                    <p class="text-center mt-40">Already have an account? <a class="form_link" href="registration.html">Sign In</a></p>                           
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>  
+    </div>
+</div>
+
+<!-- Sign In Modal -->
+<div class="modal fade" id="signin_Modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+        <div class="modal-header">          
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+          
+        <div class="modal-body">          
+        <div class="main-wrapper">        
+            <div class="form-inner sign-in">
+                <form>
+                    <div class="form-header">
+                        <h3>Sign In</h3>                        
+                    </div>                
+                    <div class="form-group">                    
+                        <input type="email" class="form-control" placeholder="Username or Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+
+                    <div class="form-meta d-flex align-items-center justify-content-between mt-30 mb-20">
+                        <label class="checkbox-wrap">Remember Me
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <a class="text-link" href="#">Forgot your password</a>
+                    </div>  
+                                    
+                    <div class="form-group">
+                        <a href="index.html" class="main-btn">Sign In</a>
+                    </div>                          
+                    <p class="text-center mt-30">Don’t have an account? <a class="registration_link" href="registration.html">Register</a></p>                           
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>  
+    </div>
+</div>
+
+<!-- Mini Cart Off-canvas Area-->
+<div class="mini_cart_wrap"> 
+    <div class="mini-cart-header">
+        <h6>My Cart</h6>        
+        <div class="close-icon menu-close">
+            <button>
+                <i class="las la-times"></i>
+            </button>
+        </div>
+       </div>       
+    <div class="mini-cart">                        
+        <div class="mini-cart-content">
+            <div class="mini-cart-items">
+                <div class="mini-cart-item">
+                    <div class="mini-cart-item-image">
+                        <a href="product-details.html"><img src="assets/img/cart/1.png" alt="mini-cart-img"></a>
+                    </div>
+                    <div class="mini-cart-item-des">
+                        <a href="product-details.html">Stylish Sofa</a>
+                        <span class="mini-cart-item-price"><b>$25.00</b></span>                                        
+                        <span class="mini-cart-item-quantity">Qty: 2</span>
+                        <span class="cart-cross-btn">x</span>
+                    </div>
+                </div>
+                <div class="mini-cart-item">
+                    <div class="mini-cart-item-image">
+                        <a href="product-details.html"><img src="assets/img/cart/2.png" alt="mini-cart-img"></a>
+                    </div>
+                    <div class="mini-cart-item-des">
+                        <a href="product-details.html">Trendy Armchair</a>
+                        <span class="mini-cart-item-price"><b>$15.00</b></span>                                        
+                        <span class="mini-cart-item-quantity">Qty: 1</span>
+                        <span class="cart-cross-btn">x</span>
+                    </div>
+                </div>
+                <div class="mini-cart-item">
+                    <div class="mini-cart-item-image">
+                        <a href="product-details.html"><img src="assets/img/cart/3.png" alt="mini-cart-img"></a>
+                    </div>
+                    <div class="mini-cart-item-des">
+                        <a href="product-details.html">Stylish Chair</a>
+                        <span class="mini-cart-item-price"><b>$20.00</b></span>                                        
+                        <span class="mini-cart-item-quantity">Qty: 4</span>
+                        <span class="cart-cross-btn">x</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mini-cart-action">
+                <div class="mini-checkout-price">Sub-Total: <span>$145.00</span></div>
+                <div class="mini-checkout-price">Vat (20%): <span>$60.00</span></div>
+                <div class="mini-checkout-price">Total: <span>$205.00</span></div>
+                <hr>
+                <div class="cart-action-btn d-flex">
+                    <a href="cart.html" class="main-btn">View Cart</a>
+                    <a href="checkout.html" class="main-btn white">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Mini Cart Off-canvas Overlay -->
+<div class="offcanvas-overlay"></div>
+
+    <!-- Scroll Top Area -->
+    <a href="#top" class="go-top"><i class="las la-angle-up"></i></a>
+
+    <!-- Popper JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Pure Counter Up JS -->
+    <script src="assets/js/pure-counter.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Isotope JS -->
+    <script src="assets/js/isotope-3.0.6-min.js"></script>
+    <!-- Countdown JS -->
+    <script src="assets/js/simplyCountdown.js"></script>
+    <!-- Slick Slider JS -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <!-- Nice Select  -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Zoom JS  -->
+    <script src="assets/js/jquery.zoom.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="assets/js/jquery.sticky.js"></script>
+    <!-- NoUi Slider -->
+    <script src="assets/js/nouislider.js"></script>
+    <!-- Progress Bar JS -->
+    <script src="assets/js/jquery.barfiller.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
+</html>

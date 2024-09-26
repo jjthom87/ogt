@@ -1,0 +1,110 @@
+.item-rating i {
+    color: #FEB53E;
+    margin: 15px 0;
+}
+
+.item-price p {
+    font-size: 28px;
+    line-height: 24px;
+    color: $theme_color;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+    @media #{$md}{
+        margin-bottom: 25px;
+    }
+
+    @media #{$xs}{
+        font-size: 30px;
+    }
+    
+}
+
+
+.item-price p span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    text-decoration: line-through;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.countdown-inner h4 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: .2px;
+
+    @media #{$md}{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    @media #{$xs}{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    span{
+        color: #F85353;
+    }
+}
+
+.simply-countdown-one {
+	margin-bottom: 50px;
+    @media #{$md}{
+        margin-bottom: 25px;
+    }
+
+    @media #{$xs}{
+        font-size: 30px;
+    }
+}
+
+.simply-countdown-one .simply-section {
+	margin-right: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	width: 70px;
+	height: 70px;
+	@media #{$xs} {    
+        margin-right: 10px;   
+	}
+}
+
+
+.simply-countdown-one .simply-section:last-child {
+	margin-right: 0; 
+}
+.simply-countdown-one .simply-section .simply-amount {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	color: $theme_color;
+	display: block;
+}
+
+
+.simply-countdown-one .simply-section .simply-word {
+	display: block;
+	text-align: left;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #777777; 
+}
+
+.buy-now-btn .main-btn {
+    width: 100%;
+   
+}
+
+.countdown-img {
+    @media #{$xs}{
+        margin-top: 30px;
+    }
+}

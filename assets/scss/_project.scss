@@ -1,0 +1,80 @@
+// Project # 03
+
+.single-project-wrap{
+	position: relative;
+	z-index: 1;
+	@media #{$xs}{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	img{
+		width: 100%;
+		object-fit: cover;
+	}
+	&.big img {
+		height: 700px;		
+		@media #{$xs} {
+			height: 350px;
+		}
+	}
+	&.small img {
+		height: 350px;
+		@media #{$md}{
+			height: 250px;			
+		}
+	}
+	&.wide img {
+		height: 350px;
+	}
+}
+
+.single-project-wrap .details {
+	background: $theme_color;
+	width: 100%;
+	height: 100%;
+	padding: 50px 35px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+  
+  
+  .single-project-wrap .info {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	margin-top: -20px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+  }
+  
+
+  .single-project-wrap h5 {
+	font-size: 22px;
+	color: #fff;
+	margin-bottom: 10px;
+  }
+
+  .single-project-wrap h6 {
+	font-size: 18px;
+	color:#fff;
+  }
+  
+  .single-project-wrap:hover .details {
+	opacity: 1;
+	visibility: visible;
+	top: 0;
+  }
+  
+  .single-project-wrap:hover .details .info {
+	opacity: 1;
+	margin-top: 0;
+  }
